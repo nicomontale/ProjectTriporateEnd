@@ -1,0 +1,192 @@
+$main-green: #06a790;
+$white: #f1f0f0;
+
+.lista {
+  height: 100vh;
+  width: 100%;
+  background-color: #EFEFEF;
+  position: relative;
+  overflow: auto;
+  @media (min-width: 500px){
+    
+  }
+}
+.list{
+  padding: 20px;
+}
+
+.list__title {
+  color: #353434b2;
+}
+
+
+
+
+//Classi del bottone
+.btn__card{
+  width: 100%;
+  margin: 0;
+}
+.list__btn-wrapper {
+ width: 100%;
+ display: block; 
+ background-color: #ccc;
+}
+
+
+
+.list__btn {
+  width: 100%;
+  height: 128px;
+  background-color: #06a790;
+  font-size: 25px;
+  color:#000;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.list__input {
+  display: none;
+}
+.fa-plus{
+  font-size: 20px; 
+}
+
+.header__list{
+  background-color: #452e8a;
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  h1{
+    margin: 0;
+    font-size: 1rem;
+    color:$white;
+  }
+}
+
+.tickets__img{
+  position: relative;
+  
+  img{
+    width: 100%;
+  }
+}
+.card-list{
+  width: 100%;
+}
+
+//Da qui
+
+.cards{
+  margin-bottom: 15px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+  &__logo__img{
+    float: left;
+    
+  }
+  &__logo__organization{
+    margin: 0;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  &__logo__date{
+    margin: 0;
+    margin-top: 5px;
+    float: right;
+    color: #000;
+  }
+
+  &__time{
+    padding-top: 15px;
+    
+  }
+  &__departure{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+  }
+  &__arrival{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: #000;
+  }
+  &__city{
+    padding-top: 15px;
+    color: #000;
+    &__origin{
+      font-size: .8rem;
+      text-align: center;
+    }
+    &__arrival{
+      font-size: .8rem;
+      text-align: center;
+    }
+  }
+  &__icon{
+    text-align: center;
+    color: #000;
+  }
+
+}
+
+.logo--ryanair{
+  border-radius: none;
+}
+.cards__logo{
+  display: block;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  
+  &__img{
+    display: inline-block;
+    img{
+    border-radius: 50%;
+    width: 32px;
+    }
+  }
+  p{
+    display: inline-block;
+    color: #000;
+  }
+  &__date{
+    
+  }
+}
+
+.detail__btn-wrapper{
+ 
+}
+.detail__btn-more{
+  border-radius: 15px;
+}
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+.logo__img{
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}

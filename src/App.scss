@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f1f0f0;
+  //border: 15px solid white; 
+  //border-radius: 40px;
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+  @media (min-width: 500px){
+  }
+  @media(min-width: 768px){
+  }
+}

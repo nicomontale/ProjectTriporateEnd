@@ -1,0 +1,33 @@
+.link-go-back {
+  color: white;
+  font-weight: 700;
+}
+
+.qr-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+
+  @media(min-width:500px) {
+  }
+}
+
+.qr-section__wrapper {
+  position: absolute;
+  top: 5%;
+  left: 7%;
+  height: 20%;
+}
+
+.fa-angle-left {
+  color: white;
+}
+
+.qr-back {
+  color: black;
+}
