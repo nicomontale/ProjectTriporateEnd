@@ -6,6 +6,7 @@ This project is a multiplatform solution for the viewing of plane, train and bus
 The main issue we looked after was to make available an Apple exclusive service to all the operating systems, fulfilling the purpose of Triporate to simplify travel arrangements for users of both Android and iPhone devices.
 
 TECHNOLOGIES USED
+
 Our solution is a React application with the following components:
 • React
 •	App
@@ -16,9 +17,12 @@ Our solution is a React application with the following components:
 The styling was made with Sass and the project was bootstrapped with Create React App.
 
 TEAM MEMBERS
+
 This application was developed by the team members Nicola Montaleone, Gaetano Cirinnà, Isidora Ibarra and Gerardo Vollono. We are all CodeMaster students from Talent Garden Innovation School, Milan.
 
+
 You have to run npm start to use the app in the development mode.
+
 
 Open https://localhost:3000 to view it in the browser. The page will reload if you make edits.
 
