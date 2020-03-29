@@ -31,3 +31,8 @@ Open https://localhost:3000 to view it in the browser. The page will reload if y
 Link to the project: https://pensive-newton-4ad3be.netlify.com/
 
 Presentation: https://slides.com/miibarra/triporate/edit
+
+
+Netlify
+
+https://triporate-tag-project.netlify.com
